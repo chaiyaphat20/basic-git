@@ -1,6 +1,7 @@
 1.กรณีอาจะ git push แล้วไป ทั้งสอง
 1.1  git remote add origin https://github.com/chaiyaphat20/basic-git.git
 1.2  git remote set-url --add --push origin https://gitlab.com/chaiyaphat20/basic-git-mis.git
+1.3  git remote set-url --add --push origin https://github.com/chaiyaphat20/basic-git.git
 
 
 2.manual sync

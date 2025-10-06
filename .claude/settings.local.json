@@ -1,7 +1,11 @@
 {
   "permissions": {
     "allow": [
-      "Bash(git remote remove:*)"
+      "Bash(git remote remove:*)",
+      "Bash(git config:*)",
+      "Bash(chmod:*)",
+      "Bash(git push:*)",
+      "Bash(git remote set-url:*)"
     ],
     "deny": [],
     "ask": []
