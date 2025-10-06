@@ -2,7 +2,9 @@
 1.1  git remote add origin https://github.com/chaiyaphat20/basic-git.git
 1.2  git remote set-url --add --push origin https://gitlab.com/chaiyaphat20/basic-git-mis.git
 1.3  git remote set-url --add --push origin https://github.com/chaiyaphat20/basic-git.git
-
+1.4
+git config alias.pushall '!git remote | xargs -n1 -I{} sh -c '\''echo "→ Pushing to {}..." && git push {} HEAD && echo "✓ {} 
+  success" || echo "✗ {} failed"; echo ""'\'''
 
 2.manual sync
   git remote add office https://github.com/chaiyaphat20/basic-git.git
