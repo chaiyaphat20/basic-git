@@ -9,7 +9,7 @@
 ---
 1.ลบ origin เดิม
  git remote remove  origin
-2.
+2.show origin ทั้งหมด
  git remote -v  
 
 3.เวลาใช้งาน:
